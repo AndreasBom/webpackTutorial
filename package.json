@@ -1,0 +1,30 @@
+{
+  "name": "webpacktutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.4",
+    "node-libs-browser": "^2.0.0",
+    "strip-loader": "^0.1.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "webserver": "webpack-dev-server",
+    "webpack:dev": "webpack",
+    "webpack:prod": "webpack --config webpack-production.config.js -p"
+  },
+  "author": "",
+  "license": "ISC"
+}
